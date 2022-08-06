@@ -21,7 +21,8 @@ project "FualMonitor"
 
    links
    {
-       "Walnut"
+       "Walnut",
+       "ImPlot"
    }
 
    targetdir ("../bin/" .. outputdir .. "/%{prj.name}")
