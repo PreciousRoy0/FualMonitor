@@ -1,4 +1,4 @@
-project "WalnutApp"
+project "FualMonitor"
    kind "ConsoleApp"
    language "C++"
    cppdialect "C++17"
@@ -10,6 +10,7 @@ project "WalnutApp"
    includedirs
    {
       "../Walnut/vendor/imgui",
+      "../Walnut/vendor/implot",
       "../Walnut/vendor/glfw/include",
       "../Walnut/vendor/glm",
 
