@@ -1,3 +1,6 @@
 [submodule "Walnut"]
 	path = Walnut
 	url = https://github.com/PreciousRoy0/Walnut
+[submodule "vendor/SerialPort"]
+	path = vendor/SerialPort
+	url = https://github.com/PreciousRoy0/SerialPort.git

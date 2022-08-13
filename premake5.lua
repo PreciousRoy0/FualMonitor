@@ -1,10 +1,11 @@
 -- premake5.lua
-workspace "FualMonitor"
+workspace "FuelMonitor"
    architecture "x64"
    configurations { "Debug", "Release", "Dist" }
-   startproject "FualMonitor"
+   startproject "FuelMonitor"
 
 outputdir = "%{cfg.buildcfg}-%{cfg.system}-%{cfg.architecture}"
 include "Walnut/WalnutExternal.lua"
 
-include "FualMonitor"
+include "FuelMonitorExternal.lua"
+include "FuelMonitor"
